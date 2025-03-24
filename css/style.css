@@ -9,9 +9,20 @@
     --objetivo-2: #d3a029;
     --objetivo-3: #279b48;
     --objetivo-4: #c42235;
-    --objetivo-5: #ef402b;
+    --objetivo-5: #ef4128;
+    --objetivo-6: #06add9;
+    --objetivo-7: #fcc30b;
+    --objetivo-8: #8f1838;
+    --objetivo-9: #f36e29;
+    --objetivo-10: #e11284;
+    --objetivo-11: #f99e29;
+    --objetivo-12: #cf8e2a;
+    --objetivo-13: #4a7940;
+    --objetivo-14: #1c97d3;
+    --objetivo-15: #59ba47;
     --objetivo-16: #02558b;
     --objetivo-17: #183668;
+
 }
 
 html {
@@ -20,6 +31,23 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.objetivos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.objetivos__objetivo {
+    padding: 7rem;
+    margin: 3rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
 }
 
 .objetivo {
@@ -47,12 +75,18 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 .objetivo__p {
     width: 75%;
     font-size: 1.5rem;
+}
+
+.objetivo__buttons {
+    display: flex;
+    gap: 3rem;
+    margin-top: 1rem;
 }
 
 .objetivo__button {
@@ -108,6 +142,86 @@ body {
 
 .objetivo__button--5:hover {
     color: var(--objetivo-5);
+}
+
+.objetivo6 {
+    background-color: var(--objetivo-6);
+}
+
+.objetivo__button--6:hover {
+    color: var(--objetivo-6);
+}
+
+.objetivo7 {
+    background-color: var(--objetivo-7);
+}
+
+.objetivo__button--7:hover {
+    color: var(--objetivo-7);
+}
+
+.objetivo8 {
+    background-color: var(--objetivo-8);
+}
+
+.objetivo__button--8:hover {
+    color: var(--objetivo-8);
+}
+
+.objetivo9 {
+    background-color: var(--objetivo-9);
+}
+
+.objetivo__button--9:hover {
+    color: var(--objetivo-9);
+}
+
+.objetivo10 {
+    background-color: var(--objetivo-10);
+}
+
+.objetivo__button--10:hover {
+    color: var(--objetivo-10);
+}
+
+.objetivo11 {
+    background-color: var(--objetivo-11);
+}
+
+.objetivo__button--11:hover {
+    color: var(--objetivo-11);
+}
+
+.objetivo12 {
+    background-color: var(--objetivo-12);
+}
+
+.objetivo__button--12:hover {
+    color: var(--objetivo-12);
+}
+
+.objetivo13 {
+    background-color: var(--objetivo-13);
+}
+
+.objetivo__button--13:hover {
+    color: var(--objetivo-13);
+}
+
+.objetivo14 {
+    background-color: var(--objetivo-14);
+}
+
+.objetivo__button--14:hover {
+    color: var(--objetivo-14);
+}
+
+.objetivo15 {
+    background-color: var(--objetivo-15);
+}
+
+.objetivo__button--15:hover {
+    color: var(--objetivo-15);
 }
 
 .objetivo16 {
