@@ -8,6 +8,8 @@ https://www.un.org/sustainabledevelopment/es/sustainable-development-goals/
 - Entre todos los integrantes: montar la energía para alimentar la web.
 - Para la documentación, cuando terminemos de montar todo, nos dividimos la documentación entre todos los integrantes. (Ahorro energético con cada ventaja e innovación que hemos pensado a la hora de hacer la web, montado el servidor, alimentación energética...)
 
+PLACA SOLAR: 21 VALTIOS, 5 VOLTIOS, 3 AMPERIOS
+
 ### DOCUMENTACIÓN
 
 AHORRO ENERGETICO
