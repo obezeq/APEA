@@ -40,12 +40,12 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 3rem;
 }
 
 .objetivos__container {
     list-style: none;
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -54,10 +54,9 @@ body {
 }
 
 .objetivo__container {
-    width: 15rem;
-    height: 15rem;
+    width: 16rem;
+    height: 16rem;
     display: flex;
-    background-color: red;
 }
 
 .objetivo {
@@ -80,8 +79,38 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 4rem;
+    gap: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
 
+.objetivos__objetivo:hover {
+    transform: scale(0.97);
+}
+
+.objetivos__objetivo--svg {
+    width: 50%;
+    height: 50%;
+}
+
+.objetivos__number {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.objetivos__objetivo--container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+.objetivos__objetivo--titulo {
+    text-align: center;
+    font-weight: bold;
 }
 
 .objetivo__title {
